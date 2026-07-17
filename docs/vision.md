@@ -20,3 +20,8 @@ into meaningful knowledge.
 
 Codex Nexus should become a personal and collaborative knowledge ecosystem where information is not simply stored, 
 but connected and understood.
+
+Knowledge without ownership is dependency. 
+
+Codex Nexus is built on the belief that users should be free to collect knowledge from any source while retaining 
+ownership, portability, and control over their personal knowledge base.
