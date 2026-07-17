@@ -25,3 +25,10 @@ Knowledge without ownership is dependency.
 
 Codex Nexus is built on the belief that users should be free to collect knowledge from any source while retaining 
 ownership, portability, and control over their personal knowledge base.
+
+## Related Documents
+
+- [Architecture](architecture.md)
+- [Roadmap](roadmap.md)
+- [Architecture Decision Records](decisions/)
+- [Contributing Guidelines](../CONTRIBUTING.md)
