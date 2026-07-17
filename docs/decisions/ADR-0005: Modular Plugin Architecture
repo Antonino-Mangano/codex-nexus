@@ -1,0 +1,90 @@
+# ADR-0005: Modular Plugin Architecture
+
+## Status
+
+Accepted
+
+## Date
+
+2026-07-17
+
+## Context
+
+Codex Nexus is intended to become a long-term, extensible knowledge platform capable of supporting multiple storage systems, AI providers, search engines, importers, exporters, and user interface technologies.
+
+Building these capabilities directly into the core application would increase complexity, reduce maintainability, and make future changes more difficult.
+
+A modular architecture allows the platform to evolve without requiring major changes to the core system.
+
+## Decision
+
+Codex Nexus will adopt a plugin-oriented architecture.
+
+The core application will provide the framework and common services, while additional functionality will be implemented as independent modules whenever practical.
+
+Examples include:
+
+- Storage providers
+- AI providers
+- Search engines
+- Document importers
+- Document exporters
+- User interface components
+- Future integrations
+
+Each module should have clearly defined responsibilities and interact with the core through stable interfaces.
+
+## Rationale
+
+A modular architecture offers several advantages:
+
+- Easier maintenance
+- Better scalability
+- Independent development of components
+- Simplified testing
+- Reduced coupling between subsystems
+- Ability to replace or extend functionality without modifying the core
+
+This approach aligns with the project's goals of flexibility, longevity, and maintainability.
+
+## Consequences
+
+### Positive
+
+- Easier future expansion
+- Cleaner architecture
+- Lower maintenance costs
+- Better separation of concerns
+- Community contributors can develop independent modules
+
+### Negative
+
+- Slightly higher initial design complexity
+- Requires well-defined interfaces
+- Additional documentation is needed for plugin development
+
+## Examples
+
+Potential future plugins may include:
+
+- SQLite Storage
+- PostgreSQL Storage
+- Local File Storage
+- OpenAI Provider
+- Ollama Provider
+- Anthropic Provider
+- PDF Importer
+- EPUB Importer
+- Markdown Importer
+- Web Crawler
+- OCR Engine
+- Semantic Search Engine
+
+These examples are illustrative and do not represent a fixed roadmap.
+
+## Related Documents
+
+- architecture.md
+- roadmap.md
+- ADR-0003-Technology-Stack.md
+- ADR-0004-Storage-Philosophy.md
