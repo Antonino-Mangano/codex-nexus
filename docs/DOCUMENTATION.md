@@ -16,7 +16,7 @@ The documentation is organized to describe the project's vision, architecture, d
 
 **Location:**
 
-`/VISION.md`
+`/docs/VISION.md`
 
 Describes the long-term purpose, goals, and philosophy of Codex Nexus.
 
@@ -114,11 +114,37 @@ Architecture Decision Records document important technical and design choices.
 
 Location:
 
-`/docs/ADR-*.md`
+`/docs/decisions/ADR-*.md`
 
 Current decisions:
 
-## ADR-0005: Plugin Architecture
+---
+
+## ADR-0001: GitHub Repository Setup
+
+Defines the initial repository structure, project organization, and foundation for collaborative development.
+
+---
+
+## ADR-0002: Nexa
+
+Defines the conceptual role and purpose of Nexa within the Codex Nexus ecosystem.
+
+---
+
+## ADR-0003: Technology Stack
+
+Defines the principles and considerations for selecting the technologies used by Codex Nexus.
+
+---
+
+## ADR-0004: Storage Philosophy
+
+Defines the storage principles of Codex Nexus, focusing on user ownership, flexibility, and long-term data accessibility.
+
+---
+
+## ADR-0005: Modular Plugin Architecture
 
 Defines the modular plugin approach that allows Codex Nexus to support future extensions and integrations.
 
