@@ -4,8 +4,7 @@
 
 This document provides an overview of the Codex Nexus documentation structure.
 
-The documentation is organized to describe the project's vision, architecture, decisions, development process, and future direction.
-
+The documentation is organized to describe the project's vision, architecture, decisions, development process, security principles, and future direction.
 ---
 
 # Documentation Structure
