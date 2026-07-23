@@ -110,6 +110,25 @@ Provides a system-level view of how the different components interact.
 
 ---
 
+## Project Structure
+
+**Location:**
+
+`/docs/PROJECT_STRUCTURE.md`
+
+Defines the planned repository and code organization, including:
+
+* Source code structure
+* Core components
+* Knowledge Engine organization
+* Storage layer
+* Plugin system
+* AI layer
+* Interface layer
+* Testing structure
+
+---
+
 # Roadmap
 
 **Location:**
