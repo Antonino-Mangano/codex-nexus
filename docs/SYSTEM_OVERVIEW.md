@@ -155,7 +155,7 @@ This document complements the rest of the project documentation:
 - **THE_CODEX.md** — Core principles and philosophy.
 - **ARCHITECTURE.md** — Technical architecture.
 - **ROADMAP.md** — Planned development milestones.
-- **docs/decisions/** — Architectural Decision Records (ADRs).
+- **docs/decisions/** — Architecture Decision Records (ADRs).
 
 ---
 
