@@ -52,6 +52,23 @@ Defines:
 
 ---
 
+### Development Guide
+
+**Location:**
+
+`/docs/DEVELOPMENT_GUIDE.md`
+
+Defines:
+
+* Development environment
+* Code organization principles
+* Development workflow
+* Testing philosophy
+* Dependency management
+* Alignment between development practices and project architecture
+
+---
+
 ### Security Policy
 
 **Location:**
